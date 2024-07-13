@@ -1,0 +1,17 @@
+.map-container {
+  background-color: #333; /* Dark grey background */
+  color: #fff; /* White text */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+
+  margin-left: 13rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add some shadow for better look */
+  height: 350px; /* Adjust height as needed */
+  width: 550px; 
+  /* top: 50px; */
+  /* padding-bottom: 25px; */
+  position: relative;
+  top: -69.5rem;
+ 
+}
