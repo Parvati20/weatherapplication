@@ -1,1 +1,61 @@
 
+.forecast {
+  background-color: #333; /* Dark grey background */
+  color: #fff; /* White text */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 810px; /* Adjusted max-width for wider display */
+  margin:0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add some shadow for better look */
+  position: relative;
+  top: -19rem;
+}
+
+.daily {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.dailydata {
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.citydate {
+  font-size: 1em;
+}
+
+.dailyweather {
+  display: flex;
+  flex-direction: row; /* Ensure items are laid out in a row */
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
+  justify-content: flex-start; /* Ensure items start from the left */
+}
+
+.day {
+  background-color: #444; /* Slightly lighter grey for each day's container */
+  padding: 10px;
+  border-radius: 5px;
+  width: 160px; /* Adjust width as needed */
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.wday {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.head {
+  font-weight: bold;
+}
+
+.val {
+  font-size: 1em;
+}
+
